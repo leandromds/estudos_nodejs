@@ -1,5 +1,5 @@
 var express = require('express'),
-	var load = require('load-express'),
+	load = require('express-load'),
     app = express();
 
 app.set('views', __dirname + '/views');
