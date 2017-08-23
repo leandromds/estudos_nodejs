@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Notícias</title>
+		</head>
+	<body>
+
+		<h1>Notícias</h1>
+
+    <% for (let i = 0; i < noticias.length; i++) {%>
+      <div>
+        <i><%= noticias[i].id %></i>
+        <h2><%= noticias[i].titulo %></h2>
+      </div>
+    <% } %>
+	</body>
+</html>
